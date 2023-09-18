@@ -3,12 +3,14 @@
     <Navbar/>
     <br>
     <MainPage/>
+    <ProcessPage/>
   </div>
 </template>
 
 <script setup>
 import Navbar from "./components/MianNavbar.vue";
-import MainPage from "./components/MainPage.vue"
+import MainPage from "./components/MainPage.vue";
+import ProcessPage from "./components/Process.vue";
 </script>
 
 <style lang="scss">
