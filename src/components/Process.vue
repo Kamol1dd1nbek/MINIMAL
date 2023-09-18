@@ -381,7 +381,7 @@ import make_3 from "../assets/make_3.png";
                 h1 {
                     color: #333;
                     text-align: center;
-                    font-family: Montserrat;
+                    font-family: Montserrat; 
                     font-size: 23px;
                     font-style: normal;
                     font-weight: 400;
