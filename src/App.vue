@@ -4,6 +4,8 @@
     <br>
     <MainPage/>
     <ProcessPage/>
+    <Projects/>
+    <Team/>
   </div>
 </template>
 
@@ -11,6 +13,8 @@
 import Navbar from "./components/MianNavbar.vue";
 import MainPage from "./components/MainPage.vue";
 import ProcessPage from "./components/Process.vue";
+import Projects from "./components/Projects.vue";
+import Team from "./components/Team.vue";
 </script>
 
 <style lang="scss">
