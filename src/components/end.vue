@@ -39,20 +39,18 @@ Describe youre project...</textarea
         background-color: #000;
         .container {
             display: flex;
-            width: 94%;
-            padding: 0px 188px 5.953px 188px;
+            width: 100%;
             flex-direction: column;
             align-items: center;
             gap: 15.047px;
-            padding: 0 188px;
-            // background-color: red;
         }
         form {
-            width: 100%;
+            width: 94% !important;
             display: flex;
             flex-flow: nowrap column;
             input {
                 height: 57px;
+                width: 100%;
                 flex-shrink: 0;
                 outline: none;
                 border: none;
@@ -136,28 +134,27 @@ Describe youre project...</textarea
         }
     }
 }
-
-.wrapper {
+@media (min-width: 601px) and (max-width: 1084px) {
+    .wrapper {
     display: flex;
     height: 639px;
+    width: 100% !important;
     justify-content: center;
     padding: 69px 0;
     background-color: #000;
     .container {
         display: flex;
-        width: 940px;
-        padding: 0px 188px 5.953px 188px;
+        width: 80%;
         flex-direction: column;
         align-items: center;
-        gap: 15.047px;
-        padding: 0 188px;
-        // background-color: red;
+        // gap: 15.047px;
     }
     form {
         width: 100%;
         display: flex;
         flex-flow: nowrap column;
         input {
+            width: 100%;
             height: 57px;
             flex-shrink: 0;
             outline: none;
@@ -171,7 +168,6 @@ Describe youre project...</textarea
             line-height: 22px;
             padding: 18px 0 17px 31px;
             &::placeholder {
-                // margin: 18px 1px 17px 28px;
                 padding-right: 10px;
                 float: left;
                 color: #fff;
@@ -185,7 +181,7 @@ Describe youre project...</textarea
         }
         textarea {
             resize: none;
-            width: 564px;
+            width: 100%;
             height: 127px;
             flex-shrink: 0;
             outline: none;
@@ -241,4 +237,110 @@ form {
         line-height: 22px; /* 146.667% */
     }
 }
+}
+@media (min-width: 1084px) {
+    .wrapper {
+    display: flex;
+    height: 639px;
+    width: 100% !important;
+    justify-content: center;
+    padding: 69px 0;
+    background-color: #000;
+    .container {
+        display: flex;
+        width: 55%;
+        flex-direction: column;
+        align-items: center;
+        // gap: 15.047px;
+    }
+    form {
+        width: 100%;
+        display: flex;
+        flex-flow: nowrap column;
+        input {
+            width: 100%;
+            height: 57px;
+            flex-shrink: 0;
+            outline: none;
+            border: none;
+            color: #fff;
+            text-align: left;
+            font-family: Vollkorn;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 22px;
+            padding: 18px 0 17px 31px;
+            &::placeholder {
+                padding-right: 10px;
+                float: left;
+                color: #fff;
+                text-align: left;
+                font-family: Vollkorn;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 22px;
+            }
+        }
+        textarea {
+            resize: none;
+            width: 100%;
+            height: 127px;
+            flex-shrink: 0;
+            outline: none;
+            border: none;
+            color: #fff;
+            text-align: left;
+            font-family: Vollkorn;
+            font-size: 17px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 22px;
+            padding: 17px 0 0 31px;
+            float: left;
+        }
+        button {
+            width: 210px;
+            height: 53px;
+            color: #8bcac3;
+            text-align: center;
+            font-family: Vollkorn;
+            font-size: 17px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 22px;
+            margin: 22px auto;
+            border-bottom: 2px solid #7ec4bd;
+            border-top: 1px solid #7ec4bd;
+            border-left: 1px solid #7ec4bd;
+            border-right: 1px solid #7ec4bd;
+            background: transparent;
+        }
+    }
+}
+form {
+    .input-dark {
+        background: rgba(255, 255, 255, 0.18);
+    }
+    .input-nodark {
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+.footer {
+    img {
+        margin: 15px 0;
+    }
+    h4 {
+        color: rgba(255, 255, 255, 0.4);
+        text-align: center;
+        font-family: Vollkorn;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 146.667% */
+    }
+}
+}
+
 </style>
