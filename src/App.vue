@@ -6,6 +6,9 @@
     <ProcessPage/>
     <Projects/>
     <Team/>
+    <Other/>
+    <Touch/>
+    <End/>
   </div>
 </template>
 
@@ -15,6 +18,9 @@ import MainPage from "./components/MainPage.vue";
 import ProcessPage from "./components/Process.vue";
 import Projects from "./components/Projects.vue";
 import Team from "./components/Team.vue";
+import Other from "./components/Other.vue";
+import Touch from "./components/Touch.vue";
+import End from "./components/end.vue"
 </script>
 
 <style lang="scss">
